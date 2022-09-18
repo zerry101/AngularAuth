@@ -7,9 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  type:string="password";
+  eyeIcon:string='fill';
+  isText:boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  hideShow()
+  {
+    this.isText=!this.isText;
+    this.isText?this.eyeIcon='fill':this.eyeIcon='slash-fill';
+    this.isText?this.type="text":this.type="password";
+  }
+
+
 
 }

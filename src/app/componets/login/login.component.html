@@ -23,8 +23,8 @@
                     class="bi bi-file-lock-fill p-2"
                     style="font-size: 3vh"
                   ></span>
-                  <input type="text" placeholder="Password" />
-                  <i class="p-3 bi bi-eye-slash-fill"></i>
+                  <input [type]="type" placeholder="Password" />
+                  <i (click)="hideShow()" class="p-3 bi bi-eye-{{eyeIcon}}"></i>
                 </div>
               </div>
               <div class="form-inline m-2">
