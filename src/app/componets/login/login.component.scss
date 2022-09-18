@@ -11,57 +11,82 @@
   // margin-top: 0;
 }
 
-#forget
-{
-  margin-left:auto;
+#forget {
+  margin-left: auto;
   text-decoration: none;
   min-width: 10%;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
-.btn
-{
+.btn {
   // min-height: 1%;
   // width: 10%;
 
-  box-shadow: .7vh .7vh .7vh  rgb(218, 218, 218);
-  border-radius:1vh;
+  box-shadow: 0.7vh 0.7vh 0.7vh rgb(218, 218, 218);
+  border-radius: 1vh;
 }
 
-.input-field
-{
+.input-field {
   border-radius: 1vh;
   height: 5vh;
   display: flex;
-  align-items:center;
+  align-items: center;
   cursor: pointer;
-  border:.1vh solid black;
+  border: 0.1vh solid black;
   color: #4343ff;
-
 }
 
-
-.input-field-error
-{
-  border: .1vh solid red;
-color: red;
+.input-field-error {
+  border: 0.1vh solid red;
+  color: red;
 }
 
-input[type='text'],
-input[type='password']
-{
-  border:none;
-  outline:none;
+input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
   box-shadow: none;
   width: 100%;
-
 }
 
-.panel{
+.panel {
   border-radius: 2vh;
 }
+
+.bordert
+{
+  border-top: 1px solid #aaa;
+  position: relative;
+  // padding-top: 4vh;
+  top:2.5vh;
+
+  // display: block;
+}
+
+.bordert::after{
+  content: "or connect with";
+  position: absolute;
+  top:-2vh;
+  left: 33%;
+  background-color: #fff;
+  padding: 0 1vh;
+}
+
+
+.connect
+{
+  position: relative;
+  top:2.5vh;
+  // margin: 3vh;
+  padding: 1vh;
+}
+
+// .connect::after
+// {
+//   border-top: 1px solid #aaa;
+
+// }
