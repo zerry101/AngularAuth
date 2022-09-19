@@ -1,0 +1,92 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.outer {
+  height: 100vh;
+  background: linear-gradient(to top, #c9c9ff 50%, #6e6ef6 90%) no-repeat;
+}
+
+.panel-heading {
+  text-align: center;
+  margin-top: 3%;
+  // margin-top: 0;
+}
+
+#forget {
+  margin-left: auto;
+  text-decoration: none;
+  min-width: 10%;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn {
+  // min-height: 1%;
+  // width: 10%;
+
+  box-shadow: 0.7vh 0.7vh 0.7vh rgb(218, 218, 218);
+  border-radius: 1vh;
+}
+
+.input-field {
+  border-radius: 1vh;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: 0.1vh solid black;
+  color: #4343ff;
+}
+
+.input-field-error {
+  border: 0.1vh solid red;
+  color: red;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+.panel {
+  border-radius: 2vh;
+}
+
+// .bordert
+// {
+//   border-top: 1px solid #aaa;
+//   position: relative;
+//   // padding-top: 4vh;
+//   top:2.5vh;
+
+//   // display: block;
+// }
+
+// .bordert::after{
+//   content: "or connect with";
+//   position: absolute;
+//   top:-2vh;
+//   left: 37%;
+//   background-color: #fff;
+//   padding: 0 1vh;
+// }
+
+
+.connect
+{
+  position: relative;
+  top:2.5vh;
+  // margin: 3vh;
+  padding: 1vh;
+}
+
+// .connect::after
+// {
+//   border-top: 1px solid #aaa;
+
+// }
